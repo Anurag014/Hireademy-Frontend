@@ -31,7 +31,7 @@ function BookDetailCard(id) {
     <>
       <div className="flex flex-col justify-center h-full w-full bg-[#1F2833] text-white">
         <div className="p-12 flex flex-col lg:flex-row items-center gap-8">
-        <div className='h-[73vh] w-[30%] bg-[url(assets/noimage.jpg)] bg-cover rounded-md'>
+        <div className='h-[73vh] lg:w-[30%]  bg-[url(assets/noimage.jpg)] bg-cover rounded-md'>
           <img
             src={`https://covers.openlibrary.org/b/isbn/${bookDetail.isbn}.jpg?default=false`}
             alt=""
